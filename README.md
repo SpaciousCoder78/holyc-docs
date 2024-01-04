@@ -1,5 +1,7 @@
 # holyc-docs
-Documentation of HolyC ![HolyC_Logo svg(1)](https://github.com/SpaciousCoder78/holyc-docs/assets/88923986/496e343e-c6ec-4672-9150-e614ba799b2d)
+Documentation of HolyC 
+
+![HolyC_Logo svg(1)](https://github.com/SpaciousCoder78/holyc-docs/assets/88923986/496e343e-c6ec-4672-9150-e614ba799b2d)
 
 
 
