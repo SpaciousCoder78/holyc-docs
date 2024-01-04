@@ -6,4 +6,4 @@
 #define __FILE__ #exe{StreamPrint("\"%s\"",Fs->last_cc->lex_include_stk->full_name);}
 #define __DIR__  #exe{StreamDir;}
 ```
-See ::/Demo/Directives.HC.
+See ![Directives.HC](https://github.com/SpaciousCoder78/holyc-docs/blob/main/HC/Directives.HC)
