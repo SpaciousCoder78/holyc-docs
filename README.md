@@ -22,6 +22,8 @@ Our aim is to preserve HolyC for the future generation. As of now, there's no so
 
 ## HolyC
 
+* See ![CompilerOverview.md](https://github.com/SpaciousCoder78/holyc-docs/blob/main/CompilerOverview/CompilerOverview.md)
+
 * Built-in types include `I0`,`I8`,`I16`,`I32`,`I64` for signed 0-8 byte ints and `U0`,`U8`,`U1
 6`,`U32`,`U64` for unsigned 0-8 byte ints and `F64` for 8 byte floats.
 ```c
