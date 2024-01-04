@@ -1,15 +1,18 @@
 # Assembler
-See ::/Compiler/OpCodes.DD for opcodes.  They're not standard.  Some invalid 
+See `::/Compiler/OpCodes.DD` for opcodes.  They're not standard.  Some invalid 
 insts are not flagged and some valid insts are not implemented. 16-bit asm 
 support is limited.
 
 Here are example inst formats:
+```asm
         ADD     RAX,I64 FS:DISP[RSI+RDI*8]
         ADD     RAX,I64 [DISP]
+```
 
 $ Current compiler output pos (inst ptr).  Even works in HolyC expressions.
 
 $ works in classes.
+```c
   class MyFun
   {
     $=-16;
@@ -18,6 +21,7 @@ $ works in classes.
     $=$+256;
     I64 crazy;
   };
+```
 
 LABEL::
   Defines an exported glbl label.
@@ -35,18 +39,24 @@ cmds must end with a semicolon.
 
 `USE16`, `USE32`, `USE64`
 
-```c IMPORT sym1name, sym2name;    ```
+```c 
+IMPORT sym1name, sym2name;
+```
 
 `LIST`, `NOLIST`
 
-```c ALIGN num```, ```c fill_byte```
+`ALIGN num`, `c fill_byte`
   Align to num boundary and fill with `fill_byte`.
 
-```c ORG num```
+```c
+ORG num
+```
   Set code addr for JIT or set module `Load()` addr -- has 16-byte `CBinFile` header 
 and patch table trailing.
 
-```c BINFILE "FileName.BIN";```
+```c 
+BINFILE "FileName.BIN";
+```
 
 See Assembly Language, `::/Demo/Asm/AsmAndC1.HC`, `::/Demo/Asm/AsmAndC2.HC` and 
 `::/Demo/Asm/AsmAndC3.HC.`
