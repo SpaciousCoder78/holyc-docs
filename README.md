@@ -151,7 +151,7 @@ big, sparse ranges.
 * Allows ranges like "case 4...7:" in `switch` stmts.
 
 * A no case number causes next higher int case in switch stmts.  See 
-::/Demo/NullCase.HC.
+![NullCase.HC](https://github.com/SpaciousCoder78/holyc-docs/blob/main/HC/NullCase.HC).
 ```c
   I64 i;
   for (i=0;i<20;i++) 
