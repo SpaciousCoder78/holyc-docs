@@ -281,14 +281,14 @@ offset in a class definition.
 * `union` is more like a class, so you don't reference it with a `union` label after 
 you define it.  Some common unions are declared in KernelA.HH for 1,2,4 and 8 
 byte objects.  If you place a type in front of a union declaration, that is the 
-type when used by itself.  See ::/Demo/SubIntAccess.HC. 
+type when used by itself.  See ![SubIntAccess.HC](https://github.com/SpaciousCoder78/holyc-docs/blob/main/HC/SubIntAccess.HC). 
 
 * `class` member vars can have meta data. format and data are two meta data types 
 now used.  All compiler structures are saved and you can access the compiler's 
-info about classes and vars.  See ::/Demo/ClassMeta.HC and  DocForm().
+info about classes and vars.  See ![ClassMeta.HC](https://github.com/SpaciousCoder78/holyc-docs/blob/main/HC/ClassMeta.HC) and  DocForm().
 
 * There is a keyword `lastclass` you use as a dft arg.  It is set to the class 
-name of the prev arg.  See ::/Demo/LastClass.HC, ClassRep(), DocForm()  and 
+name of the prev arg.  See ![LastClass.HC](https://github.com/SpaciousCoder78/holyc-docs/blob/main/HC/LastClass.HC), ClassRep(), DocForm()  and 
 ::/Demo/Dsk/BlkDevRep.HC.
 
 * See ::/Demo/Exceptions.HC. ` try{}` `catch{}` and throw are different from C++. `th
