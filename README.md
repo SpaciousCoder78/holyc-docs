@@ -167,7 +167,7 @@ big, sparse ranges.
 * Switch statements can be nestled with a single switch expression!  This is 
 known as a "sub_switch" statement.  start/end are used to group cases.  Don't 
 goto out of, throw an exception out of, or return out of the start front porch 
-area.  See ::/Demo/SubSwitch.HC.
+area.  See ![SubSwitch.HC](https://github.com/SpaciousCoder78/holyc-docs/blob/main/HC/SubSwitch.HC).
 ```c
   I64 i;
   for (i=0;i<10;i++)
