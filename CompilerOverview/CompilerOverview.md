@@ -5,4 +5,6 @@
 
 ![options.md](https://github.com/SpaciousCoder78/holyc-docs/blob/main/CompilerOverview/options.md)
 
+![preprocessor.md](https://github.com/SpaciousCoder78/holyc-docs/blob/main/CompilerOverview/preprocessor.md)
+
 See ![Hello World](https://github.com/SpaciousCoder78/holyc-docs/blob/main/helloworld.HC)
