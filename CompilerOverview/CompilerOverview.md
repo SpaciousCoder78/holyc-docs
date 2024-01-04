@@ -7,4 +7,6 @@
 
 ![preprocessor.md](https://github.com/SpaciousCoder78/holyc-docs/blob/main/CompilerOverview/preprocessor.md)
 
+![scopinglinkage.md](https://github.com/SpaciousCoder78/holyc-docs/blob/main/CompilerOverview/scopinglinkage.md)
+
 See ![Hello World](https://github.com/SpaciousCoder78/holyc-docs/blob/main/helloworld.HC)
