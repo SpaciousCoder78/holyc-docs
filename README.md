@@ -291,7 +291,7 @@ info about classes and vars.  See ![ClassMeta.HC](https://github.com/SpaciousCod
 name of the prev arg.  See ![LastClass.HC](https://github.com/SpaciousCoder78/holyc-docs/blob/main/HC/LastClass.HC), ClassRep(), DocForm()  and 
 ::/Demo/Dsk/BlkDevRep.HC.
 
-* See ::/Demo/Exceptions.HC. ` try{}` `catch{}` and throw are different from C++. `th
+* See ![Exceptions.HC](https://github.com/SpaciousCoder78/holyc-docs/blob/main/HC/Exceptions.HC). ` try{}` `catch{}` and throw are different from C++. `th
 row` is a function with an 8-byte or less char arg.  The char string passed in `th
 row()` can be accessed from within a `catch{}` using the Fs->except_ch.  Within a `c
 atch {}` blk, set the var Fs->catch_except to TRUE if you want to terminate the 
@@ -308,7 +308,7 @@ you can't do `sizeof(classname.membername.submembername)`.
 * `lock{}` can be used to apply asm LOCK prefixes to code for safe multicore 
 read-modify-write accesses.  The code bracked with have LOCK asm prefix's 
 applied to relevant insts within.  It's a little shoddy.  See 
-::/Demo/MultiCore/Lock.HC.
+![Lock.HC](https://github.com/SpaciousCoder78/holyc-docs/blob/main/HC/Lock.HC).
 
 * There is a function called `MSize()` which gives the size of an object alloced 
 off the heap.  For larger size allocations, the system rounds-up to a power of 
@@ -322,7 +322,7 @@ make an independent heap with `HeapCtrlInit()`.  See `HeapLog()` for an example.
 * The stk does not grow because virtual mem is not used.  I recommend allocating 
 large local vars from the heap.  You can change `MEM_DFT_STK` and recompile Kernel 
 or request more when doing a `Spawn()`.  You can use `CallStkGrow()`, but it's odd.  
-See ::/Demo/StkGrow.HC. 
+See ![StkGrow.HC](https://github.com/SpaciousCoder78/holyc-docs/blob/main/HC/StkGrow.HC). 
 
 * Only one base class is allowed.
 
